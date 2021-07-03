@@ -24,7 +24,7 @@ a{
     text-decoration: none;
 }
 .link-button{
-    background-image: linear-gradient(to right, orange, tomato, tomato);
+    background-image: linear-gradient(to right, rgb(38, 229, 243), rgb(83, 160, 231), rgb(68, 140, 223));
     padding: 10px 23px;
     border-radius: 4px;
     color: white;
