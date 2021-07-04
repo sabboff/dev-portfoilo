@@ -15,7 +15,10 @@ h1{
 .h-w img{ width: 500px;
 }
 .h-w{
-    width: 30% 50%;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
     text-align: right;
     padding: 5px;
 }
@@ -39,6 +42,10 @@ a{
     background-size: 70%;
     background-repeat: no-repeat;
     background-position-x: 100%;
+    max-width: auto;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 }
 #block{
     display: block;
@@ -48,11 +55,19 @@ a{
 .dream-big{
     width: 50%;
     padding-left: 150px;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 }
 .d-b{
     margin-top: 200px;
     background-image: url(images/dream-g.png);
     background-repeat: no-repeat;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 }
 .Ex-items{
     box-shadow: 15px 15px 40px gray;
@@ -67,18 +82,30 @@ a{
     background-repeat: no-repeat;
     background-position: left;
     background-position-y: 150px;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 } 
 #grad-1{
     width: 110%;
     border-image: linear-gradient(orange, tomato);
     border-image-slice: 1;
     border-left: 7px solid;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 }
 #grad-2{
     border-image: linear-gradient(blue, magenta);
     border-image-slice: 1;
     border-left: 7px solid;
     border-radius: 10px;
+    max-width: 30% 50%;
+    min-width: auto;
+    max-height:auto;
+    min-width: auto;
 }
 footer p{
     text-align: center;
