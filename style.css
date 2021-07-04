@@ -56,11 +56,11 @@ a{
     margin-right: 5%;
     margin-bottom: 30px;
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 10px;   
 }
 .experience{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
     background-position-y: 150px;
-}    
+} 
