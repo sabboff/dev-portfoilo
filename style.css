@@ -28,7 +28,11 @@ a{
     border-radius: 4px;
     color: white;
     font-weight: 700;  
-    font-size: medium;  
+    font-size: medium;
+    border: white solid 2px;
+    outline-offset: 4px;
+    
+    
 }
 .top-banner{
     background-image: url(images/top-baner.png.jpg);
@@ -64,3 +68,23 @@ a{
     background-position: left;
     background-position-y: 150px;
 } 
+#grad-1{
+    width: 110%;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#grad-2{
+    border-image: linear-gradient(blue, magenta);
+    border-image-slice: 1;
+    border-left: 7px solid;
+    border-radius: 10px;
+}
+footer p{
+    text-align: center;
+    margin-top: 30px;
+    text-indent: -43px;
+}
+#margin-experiences{
+    margin-left: 80px;
+}
